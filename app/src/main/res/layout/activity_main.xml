@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.listviewtest.MainActivity"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="@string/compendium"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp" />
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewTest</string>
+    <string name="lorem">Lorem ipsum dolor</string>
+    <string name="compendium"> CustomAdapter Test!! </string>
+</resources>
